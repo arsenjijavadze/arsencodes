@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -29,7 +30,7 @@ nav ul {
     gap: 20px;
 }
 
-nav ul li { 
+nav ul li {
     display: inline;
 }
 
@@ -82,6 +83,7 @@ nav ul li a:hover::after {
     margin: 0 80px 0 0;
     color: rgb(220, 155, 35);
 }
+
 .hero-image {
     margin-right: 200px;
 }
@@ -92,30 +94,60 @@ nav ul li a:hover::after {
     border-radius: 25%;
 }
 
-.about {
+.box {
     padding: 50px 20px;
     text-align: center;
 }
 
-.about h2 {
+.box h2 {
+    font-weight: bold;
     font-size: 2em;
     color: rgb(220, 155, 35);
     margin: 0 0 10px;
 }
 
-.about hr {
+.box hr {
     width: 80%;
     border: none;
     border-top: 2px solid rgb(220, 155, 35);
     margin: 10px auto;
 }
 
-.about p {
+.box p {
     font-size: 1.2em;
     color: #fff;
     text-align: left;
     max-width: 800px;
     margin: 20px auto 0 auto;
+}
+
+.box ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    max-width: 800px;
+    color: #fff;
+}
+
+.box li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.box strong {
+    color: rgb(220, 155, 35);
+}
+
+.box a {
+    color: rgb(220, 155, 35);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.box a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 footer {
